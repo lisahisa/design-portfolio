@@ -222,6 +222,10 @@
         color: white;
     }
 
+    .project-description {
+        color: black;
+    }
+
     .goals-oval {
         width: 7vw;
         height: 15vw;
