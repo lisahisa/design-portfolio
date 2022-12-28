@@ -1,0 +1,588 @@
+@media (max-width: 1000px) {
+    
+    .container {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    #port {
+        margin-top: -35vw;
+    }
+    
+    #folio {
+        float: right;
+        margin-top: 7vw;
+        margin-left: 300px;
+    }
+
+    .big-text {
+        font-size: 13vw;
+    }
+
+    .head-text {
+        font-size: 8vw;
+        margin-top: -24vw;
+        margin-left: 40vw;
+    }
+    
+    .lisahisamura {
+        font-size: 7vw;
+    }
+
+    .design-philosophy {
+        background-color: #3B547C;
+        min-height: 90vw;
+    }
+    
+    .diagram {
+        width: 70%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    } 
+
+    .philosophy-copy {
+        width: 100%;
+        float: right;
+        margin-top: 10vw;
+        font-size: 1.8vw;
+    }
+
+    .work-thumbnail {
+        width: 90%;
+        height: 45vw;
+    }
+    
+
+    .process-copy {
+        font-size: 1.8vw;
+    }
+
+    .process {
+        margin-top: 8vw;
+        min-height: 90vw;
+        background-color: #3B547C;
+    }
+
+    .big-process {
+        font-size: 10vw;
+    }
+
+    .head-process {
+        font-size: 7vw;
+        margin-top: -19vw;
+        margin-left: 35vw;
+    }
+
+    /* .process-oval { 
+        margin-left: 2vw;
+        margin-top: -32vw;
+    } */
+
+    .process-steps {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50vw;
+    }
+    
+    .process-step {
+        width: 38vw;
+        height: 25vw;
+    }
+    
+    .process-copy {
+        width: 100%;
+        font-size: 1.2vw;
+        position: relative;
+        z-index: 10;
+        margin-top: -10px;
+    }
+
+    .process-oval { 
+        margin-left: 2vw;
+        margin-top: -22vw;
+    }
+
+    .contact {
+        min-height: 80vw;
+    }
+
+    .big-contact {
+        font-size: 12vw;
+    }
+
+    .head-contact {
+        float: right;
+        /* margin-left: 15vw; */
+        margin-top: -10vw;
+    }
+
+    .contact-oval {
+        margin-left: 10vw;
+        margin-top: -25vw;
+    }
+
+    .flex-container {
+        margin-top: 30vw;
+    }
+
+    .copyright {
+        font-size: 1.2vw;
+    }
+
+    .works-footer {
+        margin-top: 100vw;
+    }
+
+    .about-oval {
+        margin-left: 3vw;
+        margin-top: -15vw;
+    }
+
+    #project-objectives-divs {
+        margin-top: 0vw;
+    }
+
+    .skills-oval {
+        margin-top: -20vw;
+    }
+
+    .interests-oval {
+        margin-top: -20vw;
+    }
+
+
+    .project-title-heading {
+        font-size: 4.3vw;
+        margin-top: -4vw;
+        margin-left: 0vw;
+    }
+
+    .project-facts {
+        margin-top: 0vw;
+    }
+
+    .process-scroll {
+        height: 80vw;
+        margin-top: -50vw;
+    }
+
+    .project-process-step {
+        width: 80vw;
+        /* background-color: #eee; */
+        float: none;
+        height: 100%;
+        display: inline-block;
+        zoom: 1;
+        white-space: pre-line;
+        margin-right: -30%;
+    }
+    
+    .project-process-step-one {
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    .project-process-copy {
+        width: 60%;
+        font-size: 1.2vw;
+        position: relative;
+        z-index: 10;
+        margin-top: -2vw;
+    }
+    
+    .project-process-oval {
+        width: 7vw;
+        height: 15vw;
+        border: solid 0.2vw #C57C8E;
+        border-radius: 50%;
+        transform: rotate(108deg);
+        z-index: 0;
+        margin-left: 3vw;
+        margin-top: -23vw;
+        position: relative;
+    }
+    
+    .project-process-img {
+        width: 50vw;
+        height: 35vw;
+        margin-top: 6vw;
+        object-fit: cover;
+    }
+
+    .copy {
+        font-family: proxima-nova, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.3vw;
+        color: white;
+    }
+
+    .goals-oval {
+        width: 7vw;
+        height: 15vw;
+        border: solid 0.2vw #C57C8E;
+        border-radius: 50%;
+        transform: rotate(108deg);
+        z-index: 0;
+        margin-left: 3vw;
+        margin-top: -22vw;
+        position: relative;
+    }
+    
+    .target-oval {
+        width: 7vw;
+        height: 15vw;
+        border: solid 0.2vw #C57C8E;
+        border-radius: 50%;
+        transform: rotate(108deg);
+        z-index: 0;
+        margin-left: 3vw;
+        margin-top: -20vw;
+        position: relative;
+    }
+
+    .project-info {
+        height: 23vw;
+        background-color: #3B547C;
+    }
+
+    .contactinfo {
+        color: #3B547C;
+        font-size: 1.5vw;
+        margin-top: 0vw;
+    }
+
+}
+
+
+@media (max-width: 670px) {
+    
+    .container {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .lisahisamura {
+        font-size: 12vw;
+        line-height: 1em;
+    }
+
+    .subhead {
+        font-size: 2.5vw;
+    }
+
+    #port {
+        margin-top: -50vw;
+    }
+    
+    #folio {
+        float: right;
+        margin-top: 20vw;
+        margin-left: 300px;
+    }
+
+    .big-text {
+        font-size: 12vw;
+        -webkit-text-stroke: 0.15vw;
+        -webkit-text-stroke-color: #3B547C;
+    }
+
+    .head-text {
+        font-size: 7vw;
+        margin-top: -22vw;
+        margin-left: 35vw;
+    }
+    
+    .heading {
+        margin-bottom: 25vw;
+    }
+
+    .design-philosophy {
+        background-color: #3B547C;
+        min-height: 100vw;
+    }
+    
+    .diagram {
+        width: 100%;
+        float: left;
+    } 
+
+    .philosophy-copy {
+        width: 100%;
+        float: right;
+        margin-top: 10vw;
+    }
+
+    .work-thumbnail {
+        width: 95%;
+        height: 45vw;
+    }
+
+    /* .process-steps {
+        margin-top: -12vw;
+        height: 100vw;
+    } */
+
+    .process {
+        margin-top: 8vw;
+        min-height: 100vw;
+        background-color: #3B547C;
+    }
+
+    .big-process {
+        font-size: 10vw;
+        -webkit-text-fill-color: #3B547C;
+        -webkit-text-stroke-color: white;
+    }
+
+    /* .head-process {
+        font-size: 7vw;
+        margin-top: -19vw;
+        margin-left: 35vw;
+    }
+
+    .process-steps {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 30vw;
+        margin-top: -10vw;
+    }
+    
+    .process-step {
+        width: 45%;
+        height: 25vw;
+    } */
+
+    .process-steps {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50vw;
+    }
+    
+    .process-step {
+        width: 38vw;
+        height: 25vw;
+    }
+
+    .my-skills {
+        width: 24vw;
+    }
+    
+    .process-copy {
+        width: 100%;
+        font-size: 1.2vw;
+        position: relative;
+        z-index: 10;
+        margin-top: 1vw;
+    }
+
+    .process-oval { 
+        margin-left: 2vw;
+        margin-top: -19vw;
+    }
+
+    .contact {
+        min-height: 80vw;
+    }
+
+    .big-contact {
+        font-size: 10vw;
+    }
+
+    .head-contact {
+        /* position: relative; */
+        /* float: right; */
+        /* margin-left: 12vw; */
+        margin-top: -6vw;
+    }
+
+    .contact-oval {
+        margin-left: 10vw;
+        margin-top: -24vw;
+    }
+
+    .flex-container {
+        margin-top: 32vw;
+    }
+
+
+    .copyright {
+        font-size: 1.2vw;
+    }
+
+    .thumbnail {
+        width: 80%;
+        margin-bottom: -20vw;
+        height: 80vw;
+    }
+
+    .thumbnail-img {
+        width: 100%;
+        height: 50vw;
+        object-fit: cover;
+    }
+
+    .works-top {
+        margin-top: -15vw;
+    }
+
+    .works-categories {
+        margin-top: -22vw;
+    }
+
+    .work-thumbnails {
+        margin-top: -5vw;
+        margin-left: 5vw;
+    }
+    
+
+    .works-footer {
+        margin-top: 360vw;
+    }
+
+    .about-top {
+        height: 100vw;
+    }
+
+    .about-heading {
+        width: 100%;
+    }
+
+    #who-is {
+        margin-top: -45vw;
+        font-size: 15vw;
+    }
+    
+    #lisa-hisamura {
+        margin-top: -27vw;
+        font-size: 8vw;
+    }
+    
+    #questionmark {
+        margin-top: -5vw;
+        font-size: 15vw;
+    }
+    
+    #about-top-oval {
+        margin-left: 26vw;
+        margin-top: -27vw;
+        width: 36vw;
+        height: 22vw;
+    }
+
+    .portrait {
+        margin-top: -20vw;
+        width: 50%;
+    }
+
+    .bio-description {
+        margin-top: 0vw;
+    }
+
+    /* .skills-interests {
+         max-height: 30vw;
+    } */
+
+    /* .process-oval {
+        margin-left: -5vw;
+        margin-top: -22vw
+    } */
+
+    .about-oval {
+        margin-left: 3vw;
+        margin-top: -24vw;
+    }
+
+    #project-objectives-divs {
+        margin-top: -3vw;
+    }
+
+    #skills-copy, #interests-copy {
+        margin-top: 0.1vw;
+    }
+
+    .project-title-heading {
+        font-size: 4.3vw;
+        margin-top: -8vw;
+        margin-left: 0vw;
+    }
+
+    .bgimg { 
+        background-attachment: unset;
+    }
+
+    .project-facts {
+        margin-top: -5vw;
+    }
+
+    .project-info {
+        height: 23vw;
+    }
+
+    .process-scroll {
+        height: 90vw;
+        margin-top: -50vw;
+    }
+
+    .project-process-step {
+        width: 80vw;
+        /* background-color: #eee; */
+        float: none;
+        height: 100%;
+        display: inline-block;
+        zoom: 1;
+        white-space: pre-line;
+        margin-right: -30%;
+    }
+    
+    .project-process-step-one {
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    .project-process-copy {
+        width: 60%;
+        font-size: 1.2vw;
+        position: relative;
+        z-index: 10;
+        margin-top: -2vw;
+    }
+    
+    .project-process-oval {
+        width: 7vw;
+        height: 15vw;
+        border: solid 0.2vw #C57C8E;
+        border-radius: 50%;
+        transform: rotate(108deg);
+        z-index: 0;
+        margin-left: 3vw;
+        margin-top: -25vw;
+        position: relative;
+    }
+    
+    .project-process-img {
+        width: 50vw;
+        height: 35vw;
+        margin-top: 6vw;
+        object-fit: cover;
+    }
+
+    .contactinfo {
+        color: #3B547C;
+        font-size: 1.5vw;
+        margin-top: 0vw;
+    }
+
+}

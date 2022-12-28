@@ -1,0 +1,1172 @@
+@font-face {
+    font-family: "poppins";
+    src: url("Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins-bold";
+    src: url("Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "poppins-light";
+    src: url("Poppins-Light.otf");
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* body {
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+
+
+/* NAVIGATION */
+
+#home-logo {
+    width: 4vw;
+    position: relative;
+}
+
+nav{
+	width: 90%;
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-family: poppins;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1vw;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 8vw;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links ul li a:hover,
+.nav-links ul li a.active {
+    color: #C57C8E;
+}
+
+/* top */
+
+.top {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 500px; */
+    min-height: 46vw;
+    background-color: white;
+}
+
+.container {
+    padding: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.top-container {
+    align-self: center;
+    width: 80%;
+
+    /* background-color: green; */
+}
+
+.lisahisamura {
+    font-family: poppins-bold;
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15vw;
+    z-index: 10;
+    position: relative;
+    color: #3B547C;
+}
+
+.lisahisamura.scrolled {
+    color: red !important;
+    transition: color 200ms linear;
+}
+
+.subhead {
+    font-family: poppins-light;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+    /* margin-top: 0vw; */
+    z-index: 10;
+    position: relative;
+    
+}
+
+.oval {
+    border: solid 0.2vw #C57C8E;
+    border-radius: 50%;
+    transform: rotate(35deg);
+    z-index: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.home-oval {
+    width: 25vw;
+    height: 10vw;
+    margin-top: -10vw;
+}
+
+.big-text {
+    font-family: poppins-bold;
+    font-size: 10vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.09vw;
+    -webkit-text-stroke-color: #3B547C;
+}
+
+#port {
+    /* position: absolute; */
+    margin-top: -23vw;
+}
+
+#folio {
+    /* position: absolute; */
+    float: right;
+    margin-top: 0vw;
+    /* margin-left: 600px; */
+}
+
+.lisahisamura {
+    transition: 0.3s ease-in-out;
+}
+
+.subhead {
+    transition: 0.3s ease-in-out;
+}
+
+.oval {
+    transition: 0.3s ease-in-out;
+}
+
+.big-text {
+    transition: 0.3s ease-in-out;
+}
+
+.top {
+    transition: 0.3s ease-in-out;
+}
+
+.container {
+    transition: 0.3s ease-in-out;
+}
+
+.lisahisamura-active {
+    color: white;
+}
+
+.subhead-active {
+    color: white;
+}
+
+.oval-active {
+    transform: rotate(135deg);
+}
+
+.big-text-active {
+    /* -webkit-text-fill-color: #3B547C; */
+    -webkit-text-stroke-color: white;
+}
+
+.top-active {
+    background-color: #3B547C;
+}
+
+.container-active {
+    background-color: purple;
+}
+
+.port-active {
+    -webkit-text-fill-color: #3B547C;
+    -webkit-text-stroke-color: white;
+}
+
+.folio-active {
+    -webkit-text-fill-color: #3B547C;
+    -webkit-text-stroke-color: white;
+}
+
+
+/* design philosophy */
+
+.design-philosophy {
+    background-color: #3B547C;
+    min-height: 55vw;
+}
+
+h3 {
+    font-family: poppins;
+    color: white;
+    font-size: 2.8em;
+    letter-spacing: 0.03em;
+}
+
+
+.philosophy-container {
+    position: relative;
+    margin-top: 6vw;
+}
+
+.slogan {
+    font-size: 3.2vw;
+}
+
+.diagram {
+    width: 50%;
+    float: left;
+}
+
+.copy {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3vw;
+    color: white;
+}
+
+.philosophy-copy {
+    width: 40%;
+    float: right;
+    margin-top: 10vw;
+}
+
+
+
+
+.works {
+    min-height: 54vw;
+    width: 100%;
+}
+
+.heading {
+    height: 6vw;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15vw;
+}
+
+/* .big-works {
+    position: relative;
+} */
+
+.head-text {
+    font-family: poppins-bold;
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    z-index: 10;
+    color: #3B547C;
+    
+    margin-top: -17.5vw;
+    margin-left: 32vw;
+
+    /* margin-left: 400px;
+    margin-top: -18.5%; */
+}
+
+.work-img {
+    margin-top: 10vw;
+}
+
+.work-thumbnail {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 70vh;
+    margin-bottom: 4vw;
+    height: 38vw;
+}
+
+.work-thumbnail-img {
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.rectangle {
+    background-color: rgba(59, 84, 124, 0.8);
+    width: 30vw;
+    height: 9vw;
+    /* position: absolute; */
+    /* margin-left: 45%; */
+    position: relative;
+    margin-top: -12vw;
+    padding-top: 0.1%;
+    padding-left: 5%;
+    float: right;
+    z-index: 10;
+}
+
+.rectangle h4 {
+    color: white;
+    font-family: poppins-bold;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+.rectangle h5 {
+    color: white;
+    font-family: poppins-light;
+    font-size: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: -5%;
+}
+
+#seework {
+    border: 0.3vw solid #E1B0BC;
+    color: black;
+    padding: 1vw 2vw;
+    border-radius: 1px;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1vw;
+	position: relative;
+	opacity: 1;
+    font-family: poppins-light;
+    letter-spacing: 0.1em;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vw;
+}
+
+.seework-link {
+    text-decoration: none;
+}
+
+#seework:hover,
+#seework.active {
+    background-color: #E1B0BC;
+}
+
+/* process */
+
+.process {
+    margin-top: 8vw;
+    height: 80vw;
+    background-color: #3B547C;
+}
+
+.big-process {
+    -webkit-text-fill-color: #3B547C;
+    -webkit-text-stroke-color: white;
+}
+
+.head-process {
+    font-family: poppins-bold;
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    z-index: 10;
+    color: white;
+}
+
+.head-processname {
+    font-family: poppins-bold;
+    font-size: 2.2vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+.process-oval {
+    width: 7vw;
+    height: 15vw;
+    border: solid 0.2vw #C57C8E;
+    border-radius: 50%;
+    transform: rotate(108deg);
+    z-index: 0;
+    margin-left: 3vw;
+    margin-top: -21vw;
+    position: relative;
+}
+
+.process-steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vw;
+}
+
+.process-step {
+    width: 38vw;
+    height: 25vw;
+}
+
+.my-skills {
+    width: 38vw;
+    height: 25vw;
+}
+
+.process-copy {
+    width: 100%;
+    font-size: 1.2vw;
+    position: relative;
+    z-index: 10;
+    margin-top: -10px;
+}
+
+/* contact */
+
+.contact {
+    min-height: 54vw;
+}
+
+.big-contact {
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+.head-contact {
+    /* margin-left: 55%; */
+    float: right;
+    margin-top: -10%;
+    position: relative;
+    z-index: 10;
+    text-align: right;
+    line-height: 7vw;
+    /* width: 100%; */
+}
+
+.contact-oval {
+    width: 35vw;
+    height: 18vw;
+    transform: rotate(35deg);
+    position: relative;
+    z-index: 0;
+    margin-left: 10vw;
+    margin-top: -22vw;
+}
+
+.contact-links {
+	width: 100%;
+    /* position: sticky; */
+    /* z-index: 1; */
+    display: flex;
+    /* align-items: center; */
+    margin-top: 0vw;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+/* .nav-links{
+    flex: 1;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-family: poppins;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1vw;
+} */
+
+.contact-links ul li{
+    list-style: none;
+    /* display: inline-block; */
+    /* flex-basis: 30%; */
+    margin: 2vw;
+    /* width: 30%; */
+    background-color: green;
+    /* margin-left: 200px; */
+}
+
+
+
+.head-contactname {
+    font-family: poppins-bold;
+    font-size: 4vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: relative;
+    z-index: 10;
+    color: #3B547C;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 20vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+}
+
+/* .space-between li {
+background: lightgreen;
+} */
+
+.flex-item {
+/* padding: 1vw; */
+width: 10vw;
+height: 5vw;
+line-height: 4vw;
+color: white;
+font-weight: bold;
+font-size: 2vw;
+}
+
+.contactinfo {
+    color: #3B547C;
+    font-size: 1.5vw;
+    margin-top: 0vw;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #3B547C;
+    height: 15vw;
+    
+}
+
+.copyright {
+    text-align: left;
+    color: white;
+    /* margin-top: 0vw; */
+
+    /* margin-top: -10vw; */
+    position: relative;
+}
+
+
+
+/* WORKS PAGE */
+
+.works-top {
+    margin-top: -5vw;
+}
+
+.works-categories {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: -5vw;
+}
+
+.flex-categories {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-categories li a {
+    color: black;
+    text-decoration: none;
+}
+
+.flex-categories li a:hover,
+.flex-categories li a.active {
+    color: #C57C8E;
+}
+
+
+/* .work-thumbnails {
+    width: 100%;
+    height: 200vw;
+}
+
+.thumbnails {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 5%;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+} */
+
+.work-thumbnails {
+    width: 100vw;
+    min-height: 55vw;
+}
+
+.category-button {
+    font-family: poppins-light;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.category-button:hover, .category-button.active {
+    color: #C57C8E;
+}
+
+
+.thumbnail-group {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    position: absolute;
+    /* margin-left: 0px; */
+}
+
+.thumbnail {
+    width: 48%;
+    margin-bottom: 2vw;
+}
+
+#work-one, #work-three, #work-five, #work-seven, #work-nine, #work-ten, #work-twelve {
+    margin-right: 2%;
+}
+
+
+.thumbnail-img {
+    width: 100%;
+    height: 28vw;
+    object-fit: cover;
+}
+
+#print-thumbnails {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+#digital-thumbnails {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+#uiux-thumbnails {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.works-footer {
+    margin-top: 100vw;
+}
+
+
+
+/* PROJECT PAGE */
+
+/* Project Top */
+
+.project-top { 
+    height: 40vw; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
+    flex-direction: column;
+    padding: 2vw;
+    
+  }
+
+.bgimg { 
+height: 80vw;
+background-size: 100%;
+background-position: center;
+box-sizing: border-box;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center; 
+flex-direction: column;
+padding: 2vw;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#bg-hisamurauniversity {
+background-image: url(catalogmockup.png); 
+}
+
+#bg-mercedesbenz {
+    background-image: url(mercedesmockup.jpg);
+}
+
+#bg-amai {
+background-image: url(cookletmockup.jpg);
+}
+
+#bg-taiwan {
+    background-image: url(currencymockup.jpg);
+}
+
+.project-info {
+    height: 20vw;
+    /* margin-top: 5vw; */
+    background-color: #3B547C;
+}
+
+/* .project-top {
+    min-height: 500px;
+} */
+
+.project-title-heading {
+    margin: 0;
+}
+
+.project-subhead {
+    text-align: left;
+}
+
+.project-description {
+    color: black;
+}
+
+.project-facts {
+    margin-top: 0vw;
+}
+
+
+.facts h4 {
+    color: white;
+    font-family: poppins-bold;
+    text-transform: uppercase;
+    font-size: 2.3vw;
+    letter-spacing: 0.05em;
+    line-height: 2.3vw;
+}
+
+.facts h5 {
+    color: white;
+    font-family: poppins-light;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: -10%;
+}
+
+#project-objectives-divs {
+    /* height: 25vw; */
+    flex-direction: row;
+}
+
+
+#head-goals, #head-target {
+    color: #3B547C;
+}
+
+#goals-copy, #target-copy {
+    color: black;
+}
+
+.goals-oval {
+    width: 7vw;
+    height: 15vw;
+    border: solid 0.2vw #C57C8E;
+    border-radius: 50%;
+    transform: rotate(108deg);
+    z-index: 0;
+    margin-left: 3vw;
+    margin-top: -22vw;
+    position: relative;
+}
+
+.target-oval {
+    width: 7vw;
+    height: 15vw;
+    border: solid 0.2vw #C57C8E;
+    border-radius: 50%;
+    transform: rotate(108deg);
+    z-index: 0;
+    margin-left: 3vw;
+    margin-top: -19vw;
+    position: relative;
+}
+
+
+.checkmark-icon {
+    width: 2.7vw;
+}
+
+.target-icon {
+    width: 3.5vw;
+}
+
+.project-process {
+    min-height: 50vw;
+    background-color: #3B547C;
+}
+
+.morescroll-copy {
+    color: white;
+    margin-top: -3vw;
+    float: right;
+}
+
+.process-scroll {
+    width: 100%;
+    height: 55vw;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.project-process-step {
+    width: 50%;
+    /* background-color: #eee; */
+    float: none;
+    height: 100%;
+    display: inline-block;
+    zoom: 1;
+    white-space: pre-line;
+    margin-left: 5%;
+}
+
+.project-process-step-one {
+    width: 90%;
+    height: 50%;
+}
+
+/* .project-process-step-copy {
+    margin-top: -1000px;
+} */
+
+.project-process-copy {
+    width: 100%;
+    font-size: 1.2vw;
+    position: relative;
+    z-index: 10;
+    margin-top: -2vw;
+}
+
+.project-process-oval {
+    width: 7vw;
+    height: 15vw;
+    border: solid 0.2vw #C57C8E;
+    border-radius: 50%;
+    transform: rotate(108deg);
+    z-index: 0;
+    margin-left: 3vw;
+    margin-top: -21vw;
+    position: relative;
+}
+
+.project-process-img {
+    width: 100%;
+    height: 28vw;
+    margin-top: 6vw;
+    object-fit: cover;
+}
+
+.project-process-img-container {
+    width: 50%;
+}
+
+/* more photos */
+
+.morephotos {
+    height: 76vw;
+}
+
+.moreimg-top {
+    display: inline-block;
+    margin-top: 3vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.moreimg-bottom {
+    display: inline-block;
+    margin-top: 3vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#catalog1 {
+    width: 32%;
+    margin-right: vw;
+    float: left;
+}
+
+#catalog2 {
+    width: 64%;
+    float: right;
+}
+
+#catalog3 {
+    width: 32%;
+    float: right;
+}
+
+#catalog4 {
+    width: 64%;
+    float: left;
+}
+
+#catalog5 {
+    width: 55%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.previous-project {
+    border: none;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    font-family: poppins;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.next-project {
+    border: none;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    margin-top: 0vw;
+    background-color: transparent;
+    display: inline-block;
+    font-size: 1.5vw;
+    font-family: poppins;
+    cursor: pointer;
+    text-transform: uppercase;
+    float: right;
+    text-decoration: none;
+}
+
+.about-top {
+    height: 65vw;
+    display: inline-block;
+    position: relative;
+}
+
+.about-heading {
+    height: 0;
+    position: relative;
+    width: 40%;
+    margin-top: 43vw;
+    float: right;
+}
+
+.portrait {
+    width: 40%;
+    object-fit: cover;
+    height: 45vw;
+    float: left;
+}
+
+#who-is {
+    float: right;
+    margin-top: -45vw;
+    text-align: right;
+    line-height: 1em;
+    font-size: 10vw;
+    z-index: 10;
+    position: relative;
+}
+
+#lisa-hisamura {
+    float: right;
+    margin-top: -33vw;
+    text-align: left;
+    font-size: 5vw;
+    z-index: 10;
+    position: relative;
+}
+
+#questionmark {
+    float: right;
+    margin-top: -18vw;
+    text-align: right;
+    line-height: 1em;
+    font-size: 10vw;
+    z-index: 10;
+    position: relative;
+}
+
+#about-top-oval {
+    /* position: absolute; */
+    margin-left: 0vw;
+    margin-top: -27vw;
+    z-index: 0;
+    width: 29vw;
+    height: 15vw;
+}
+
+.bio-description {
+    color: black;
+    margin-top: -12vw;
+}
+
+.skills-interests {
+    background-color: #3B547C;
+    height: 30vw;
+}
+
+.about-oval {
+    width: 7vw;
+    height: 15vw;
+    border: solid 0.2vw #C57C8E;
+    border-radius: 50%;
+    transform: rotate(108deg);
+    z-index: 0;
+    margin-left: 3vw;
+    margin-top: -20vw;
+    position: relative;
+}
+
+.skills-oval, .interests-oval {
+    width: 7vw;
+    height: 15vw;
+    border: solid 0.2vw #C57C8E;
+    border-radius: 50%;
+    transform: rotate(108deg);
+    z-index: 0;
+    margin-left: 3vw;
+    margin-top: -20vw;
+    position: relative;
+}
+
+#project-objectives-divs {
+    margin-top: 0vw;
+}
+
+#head-skills, #head-interests {
+    color: white;
+}
+
+#skills-copy, #interests-copy {
+    color: white;
+}
+
+.pencil-icon {
+    width: 3vw;
+}
+
+.heart-icon {
+    width: 3vw;
+}
+
+/* fading stuff */
+
+@media screen and (max-width: 650px) {
+.scroll-container,
+.scroll-container:nth-of-type(even) {
+    flex-direction: column;
+    align-content: inherit;
+}
+
+.scroll-element {
+    height: 100%;
+}
+
+.scroll-element,
+.scroll-caption {
+    width: 100%;
+}
+}
+/**Styling scrollable elements*/
+
+.js-scroll {
+opacity: 0;
+transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+opacity: 1;
+}
+
+
+.scrolled.fade-in-bottom {
+animation: fade-in-bottom 1s ease-in-out both;
+}
+
+  
+@keyframes fade-in-bottom {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
